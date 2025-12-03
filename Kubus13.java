@@ -1,5 +1,4 @@
 
-import java.util.Scanner;
 public class Kubus13 {
     public static double volume(double s) {
         return s * s * s; 

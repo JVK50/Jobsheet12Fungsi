@@ -48,7 +48,7 @@ public class kafe13 {
         int totalHarga = hitungTotalHarga(pilihanMenu, banyakItem);
 
         System.out.println("Total yang harus anda bayar: Rp" + totalHarga);
-
+        ingputz.close();
     }
 
 }

@@ -7,6 +7,7 @@ public class nilaimahasiswa13 {
             System.out.print("masukkan nilai mahasiswa ke-" + (i + 1) + " = ");
             nilai[i] = jvk.nextInt();
         }
+        jvk.close();
     }
 
     public static void nampilin(int[] nilai) {
@@ -37,6 +38,7 @@ public class nilaimahasiswa13 {
         
         int totalNilai = totallz(nilai);
         System.out.println("\ntotal nilai mahasiswa = " + totalNilai);
+        jvk.close();
     }
 }
 

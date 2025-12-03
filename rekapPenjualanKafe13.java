@@ -62,6 +62,7 @@ public class rekapPenjualanKafe13 {
             double avg = total / (double) jumlahdayz;
             System.out.println(menu[i] + " : " + avg);
         }
+        halomok.close();
     }
 }
 
